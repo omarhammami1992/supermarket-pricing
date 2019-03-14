@@ -23,8 +23,8 @@
 hs_err_pid*
 
 # ignored files
-*.classpath
-*.project
+.classpath
+.project
 .settings/*
 .settings
 target/*
