@@ -1,4 +1,4 @@
-package com.supermarket.pricing;
+package com.supermarket.pricing.entity;
 
 import com.supermarket.pricing.enums.MassUnit;
 import com.supermarket.pricing.util.SuperMarketUtils;
@@ -21,7 +21,6 @@ public class MassProduct implements Product{
 	private MassUnit purchasedUnit;
 	
 	public MassProduct(String name, MassUnit unit, Float unitPrice, Integer purchasedQuantity, MassUnit purchasedUnit) {
-		super();
 		this.name = name;
 		this.unit = unit;
 		this.unitPrice = unitPrice;

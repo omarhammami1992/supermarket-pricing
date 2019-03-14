@@ -1,4 +1,4 @@
-package com.supermarket.pricing;
+package com.supermarket.pricing.entity;
 
 import lombok.Getter;
 import lombok.Setter;

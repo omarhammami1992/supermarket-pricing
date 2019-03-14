@@ -1,4 +1,4 @@
-package com.supermarket.pricing;
+package com.supermarket.pricing.entity;
 
 @FunctionalInterface
 public interface Product {

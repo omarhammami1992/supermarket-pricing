@@ -1,4 +1,4 @@
-package com.supermarket.pricing;
+package com.supermarket.pricing.entity;
 
 import com.supermarket.pricing.util.SuperMarketUtils;
 
@@ -24,7 +24,6 @@ public class SimpleProduct implements Product{
 	 * @param quantity : purchased quantity
 	 */
 	public SimpleProduct(String name, Float price, Integer quantity) {
-		super();
 		this.name = name;
 		this.price = price;
 		this.quantity =  quantity;

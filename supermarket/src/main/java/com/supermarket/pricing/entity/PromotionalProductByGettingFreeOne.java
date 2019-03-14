@@ -1,4 +1,4 @@
-package com.supermarket.pricing;
+package com.supermarket.pricing.entity;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -10,7 +10,6 @@ public class PromotionalProductByGettingFreeOne extends PromotionalProduct{
 	private Integer freeQuantity;
 	
 	public PromotionalProductByGettingFreeOne(String name,Float unitPrice, Integer promotionalQuantity, Integer freeQuantity, Integer quantity) {
-		super();
 		this.name = name;
 		this.unitPrice = unitPrice;
 		this.promotionalQuantity = promotionalQuantity;
